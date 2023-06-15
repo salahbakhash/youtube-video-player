@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Video Player</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+</head>
+<body>
+  <div id="video-holder" class="video stop">
+    <video id="video">
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="bg"></div>
+    <div class="controls">
+      <div id="line" class="watch-line">
+        <div id="watched-thumb" class="watched-thumb"></div>
+        <div class="line-holder">
+          <div class="line"></div>
+          <div id="loaded-line" class="loaded-line"></div>
+          <div id="hovered-line" class="hovered-line"></div>
+          <div id="watched-line" class="watched-line"></div>
+        </div>
+      </div>
+      <div class="options">
+        <div class="actions">
+          <div id="start-stop" class="start-stop option">
+            <i class="fa-solid fa-play"></i>
+          </div>
+          <div id="volume" class="volume low option">
+            <i id="mute-control" class="fa-solid fa-volume-high"></i>
+            <div class="input">
+              <input min="0" value="50" max="100" type="range" id="volume-level">
+              <div class="unactive-area"></div>
+              <div id="input-thumb" class="thumb"></div>
+              <span id="input-area" class="active-area"></span>
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <!-- <div class="setting option">
+            <i class="fa-solid fa-gear"></i>
+          </div> -->
+          <div id="screen-btn" class="full-screen option">
+            <i class="fa-solid fa-expand"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span class="card forward">
+      <i class="fa-solid fa-forward"></i>
+    </span>
+    <span class="card backward">
+      <i class="fa-solid fa-backward"></i>
+    </span>
+    <div class="card stop">
+      <i class="fa-solid fa-play"></i>
+    </div>
+    <div class="card start">
+      <i class="fa-solid fa-pause"></i>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
