@@ -16,7 +16,7 @@
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=8Bw6gHd1BOM
 " target="_blank"><img src="http://img.youtube.com/vi/8Bw6gHd1BOM/0.jpg" 
-alt="المقطع الرئيسي (الشرح) على قناة @salahbakhash" width="240" height="180" border="10" /></a>
+alt="المقطع الرئيسي (الشرح) على قناة @salahbakhash" width="480" height="320" border="10" /></a>
 
 ***
 
